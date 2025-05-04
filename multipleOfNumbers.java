@@ -4,28 +4,26 @@ public static int findMultiple(int number){
 	return number * 5;
 }
 	
-	public static void displayPrimeNumbers() {
-
+public static void displayPrimeNumbers() {
+	int prime = 0;
 	
-	for(int i =2; ;i++){
-	int prime = 0; 
+	for(int i = 2; ; i++){ 
 	int count = 0;
 
-	for(int j = 1; j <=i; i++){
+	for(int j = 1; j <= i; j++){
 	if(i % j == 0){
-	count++
+	count++;
 	}
-	
+	}
 	if(count == 2){
-	System.out.print(i + j " ");
-	 count ++
-	 prime++
+	System.out.print(i + " ");
+	 prime++;
 	}
-
 	if(prime == 50){
 	break;
-	}
+	
 	}	
 	}
+
 }
 }
