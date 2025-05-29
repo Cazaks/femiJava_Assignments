@@ -1,0 +1,10 @@
+public class SpecialNumber{
+
+public static int specialNumber(int[] number);{
+
+int digits = [1, 2, 3, 2];
+
+cou
+}
+
+}
